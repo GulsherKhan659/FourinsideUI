@@ -1,0 +1,64 @@
+.nav-container {
+    margin: 0% 15%;
+}
+
+.navbar-bg {
+    background-color: transparent;
+}
+
+.badge-light {
+    border: 0.8px solid #FFF;
+    color: #FFF;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.top-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: goldenrod; */
+}
+
+
+.top-header-container {
+    position: relative;
+    top: -12vh;
+    height: 85vh;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.card-img-overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.work-card-no {
+    color: rgb(204, 198, 198);
+
+}
+
+.work-card-heading {
+    margin: 80px 0px;
+    right: 5%;
+    left: 5%;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+.footer-links {
+    text-decoration: none;
+    color: rgb(161, 156, 156);
+}
+
+.dark-bg {
+    background-color: #022248;
+}
