@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourinside</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar dark-bg text-white navbar-expand-lg navbar-bg sticky-top">
+        <div class="container  d-flex justify-content-between">
+            <a class="navbar-brand" href="#"><img src="/assets/images/logo-light.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class=""><img src="/assets/icons/burger.svg" /></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="w-100 ">
+                    <ul class="navbar-nav nav-container me-auto mb-2 float-sm-end float-start mb-lg-0 nav-container">
+
+                        <li class="nav-item">
+                            <a class="text-white nav-link active" aria-current="page" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="#">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="#">Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="#">Buyer</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="text-white nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">User12@xyz.com</a></li>
+                                <li><a class="dropdown-item" href="#">+1119000000</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- NAVBAR END -->
+
+    <div class="container">
+        <div class="row">
+            <!-- Side Bar Left Option  -->
+            <div class="col-sm-3">
+                <div class="card shadow-sm px-3 py-2 m-3">
+                    <div class="mx-1 fs-6 fw-bold text-success">DASHBOARD</div>
+                    <div class="mx-1 my-2" style="height: 0.9px; background-color: gray;"></div>
+                    <ul class="list-unstyled mx-2">
+
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Manage Services
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Create Service
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Manage Blog
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Create Service
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Manage Software
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Upload Service
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Second Panel -->
+
+                <div class="card shadow-sm px-3 py-2 m-3">
+                    <div class="mx-2 fs-6 fw-bold text-success">SELLER</div>
+                    <div class="mx-2 my-2" style="height: 0.9px; background-color: gray;"></div>
+                    <ul class="list-unstyled mx-2">
+
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Service Booking
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Software Sales
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#">Job List
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Transiction List
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Withdraw Money
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Withdraw History
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#">Support Ticket
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Bar Right Option  -->
+
+            <div class="col-sm-8">
+                <div class="row my-2">
+                    <div class="w-100 d-flex justify-content-end py-1 dark-bg text-white px-4">
+                        <div>Save</div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Gig Title</div>
+                            <p class="fs-6 text-black-50">
+                                As your Gig storefront, your title is the most important place to include keywords that
+                                buyers would likely use to
+                                search for a service like yours.
+                            </p>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" style="height: 130px;" maxlength="100"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Category</div>
+                            <p class="fs-6 text-black-50">
+                                Choose the category and sub-category most suitable for your Gig. </p>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input class="form-control" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="form-control" />
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Specilitze</div>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input class="form-control" />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Include Feature</div>
+
+                        </div>
+                        <div class="col-sm-8">
+
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="">
+                                <label class="form-check-label" for="">
+                                    Home Services
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="">
+                                <label class="form-check-label" for="">
+                                    Feature Test 1
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="">
+                                <label class="form-check-label" for="">
+                                    Feature Test 2
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Search Tags</div>
+                            <p class="fs-6 text-black-50">
+                                Tag your Gig with buzz words that are relevant to the services you offer. Add at least 3
+                                tags
+                            </p>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" style="height: 80px;" maxlength="100"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Scope & Pricing</div>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="input-group mb-3">
+                                <input type="number" class="form-control" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                                <span class="dark-bg text-white input-group-text" id="basic-addon2">USD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Delivery Days</div>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="input-group mb-3">
+                                <input type="number" class="form-control" aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                                <span class="dark-bg text-white input-group-text" id="basic-addon2">Days</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Add Extra Service</div>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <button class="btn dark-bg text-white px-2 w-25">+ Add Service</button>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Description</div>
+                            <p class="fs-6 text-black-50">
+                                Briefly Describe Your Gig
+                            </p>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" style="height: 80px;" maxlength="100"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-sm-4">
+                            <div class="fs-6 fw-bold">Gig Gallery</div>
+                            <p class="fs-6 text-black-50">
+                                Get noticed by the right buyers with visual examples of your services.
+                            </p>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <img height="250px" width="380px" src="/assets/images/default-image.png" />
+                        </div>
+                    </div>
+                    <div class="row my-3">
+
+                        <div class="offset-sm-4 col-sm-8">
+                            <button class="btn text-center p-2 text-white dark-bg w-100"> Create Service </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer Start  -->
+    <div class="container-fluid dark-bg text-white ">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <ul class="list-unstyled text-white">
+                        <li class="fw-bold my-2">Categories</li>
+                        <li><a class="footer-links" href="#">Addition & Remodels</a>
+                        </li>
+                        <li><a class="footer-links" href="#">Air Conditioning &
+                                Cooling</a></li>
+                        <li><a class="footer-links" href="#">Application Integration</a>
+                        </li>
+                        <li><a class="footer-links" href="#">Bathroom Remodeling</a>
+                        </li>
+                        <li><a class="footer-links" href="#">Business Applications</a>
+                        </li>
+                        <li><a class="footer-links" href="#">Carpentry & Woodworking</a>
+                        </li>
+                        <li><a class="footer-links" href="#">Cloud Financial
+                                Management</a></li>
+                        <li><a class="footer-links" href="#">Concrete, Brick & Stone</a>
+                        </li>
+                        <li><a class="footer-links" href="#">Contractor & Handymen</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-3">
+                    <ul class="list-unstyled text-white">
+                        <li class="fw-bold my-2">About</li>
+
+                        <li><a class="footer-links" href="#">Careers</a></li>
+                        <li><a class="footer-links" href="#">Articles</a></li>
+                        <li><a class="footer-links" href="#">Privacy Policy</a></li>
+                        <li><a class="footer-links" href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="list-unstyled text-white">
+                        <li class="fw-bold my-2">Support</li>
+
+                        <li><a href="#" class="footer-links">Help & Support</a></li>
+                        <li><a href="#" class="footer-links">Trust & Safety</a></li>
+                        <li><a href="#" class="footer-links">Selling on Fourinside</a></li>
+                        <li><a href="#" class="footer-links">Buying on Fourinside</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="list-unstyled text-white">
+                        <li class="fw-bold my-2">Home</li>
+                        <li><a class="footer-links" href="#">Service</a></li>
+                        <li><a class="footer-links" href="#">Become a Seller</a></li>
+                        <li><a class="footer-links" href="#">Blogs</a></li>
+                        <li><a class="footer-links" href="#">about Us</a></li>
+                        <li><a class="footer-links" href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="mx-5 bg-white" style="height: 1px; "></div>
+        <div class="container py-2">
+            <div class="d-flex justify-content-between ">
+                <div class="footer-links">
+                    <a class="navbar-brand" href="#"><img src="/assets/images/logo-light.svg" width="200px"
+                            alt="logo"></a>
+                    <span><small>Copyrights @ 2023 All Reserved</small></span>
+                </div>
+
+                <ul class="list-unstyled d-flex">
+                    <li class="mx-1"><a href="#"><img src="/assets/icons/facebook.svg" alt="social-icon" /></a>
+                    </li>
+                    <li class="mx-1"><a href="#"><img src="/assets/icons/twitter.svg" alt="social-icon" /></a>
+                    </li>
+                    <li class="mx-1"><a href="#"><img src="/assets/icons/instagram.svg" alt="social-icon" /></a>
+                    </li>
+                    <li class="mx-1"><a href="#"><img src="/assets/icons/linkedin.svg" alt="social-icon" /></a>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="/assets/js/bootstrap.js">
+    </script>
+    <script src="/assets/js/fourinside.js"></script>
+
+</body>
+
+</html>
