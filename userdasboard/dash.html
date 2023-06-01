@@ -8,7 +8,7 @@
     <title>Fourinside</title>
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/userdasboard/style.css">
+
 </head>
 
 <body>
@@ -24,79 +24,31 @@
                 <div class="w-100 ">
                     <ul class="navbar-nav nav-container me-auto mb-2 float-sm-end float-start mb-lg-0 nav-container">
 
-                        <li class="mx-2 nav-item dropdown">
-                            <a class="text-success nav-link dropdown-toggle" href="#"
-                                id="navbarScrollingDashboardDropdown" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Seller Dashboard
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDashboardDropdown">
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="dashboard.html">Seller
-                                        Dashboard</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="manageservice.html">Manage
-                                        Services</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="createservice.html">Create
-                                        Service</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="manageblog.html">Manage
-                                        Blogs</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="createblog.html">Create
-                                        Blog</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="managesoftware.html">Manage
-                                        Software</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="updatesoftware.html">Update
-                                        Software</a></li>
-
-                            </ul>
+                        <li class="nav-item">
+                            <a class="text-white nav-link active" aria-current="page" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="#">Blog</a>
                         </li>
 
-
-                        <li class="mx-2 nav-item dropdown">
-                            <a class="text-white nav-link dropdown-toggle" href="#" id="navbarScrollingDashboardSells"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Sells
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDashboardSells">
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="servicebooking.html">Service
-                                        Booking</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="softwaresale.html">Software
-                                        Sales</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="joblist.html">Job List</a>
-                                </li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="transaction.html">Transaction
-                                        Log</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="withdrawmoney.html">Withdraw
-                                        Money</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="withdrawhistory.html">Withdraw
-                                        History</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="supportticket.html">Support
-                                        Ticket</a></li>
-
-                            </ul>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="#">Seller</a>
                         </li>
-                        <li class="mx-2 nav-item">
-                            <a class="text-white nav-link" href="userblog.html">Blog</a>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="#">Buyer</a>
                         </li>
-                        <li class="mx-2 nav-item">
-                            <a class="text-white nav-link" href="userbuyer.html">Buyer</a>
-                        </li>
-                        <li class="mx-2 nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a class="text-white nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Account
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="getsupport.html">Get
-                                        Support</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="profilesetting.html">Profile
-                                        Settings</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="changepassword.html">Change
-                                        Password</a></li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="2fasecurity.html">2FA
-                                        Security</a></li>
+                                <li><a class="dropdown-item" href="#">User12@xyz.com</a></li>
+                                <li><a class="dropdown-item" href="#">+1119000000</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="on-hover-dropdown-item dropdown-item" href="logout.html">Log Out</a></li>
+                                <li><a class="dropdown-item" href="#">Log Out</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -106,12 +58,86 @@
     </nav>
 
     <!-- NAVBAR END -->
-    <!-- CODE here -->
+
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <!-- Side Bar Left Option  -->
+            <div class="col-sm-3">
+                <div class="card shadow-sm px-3 py-2 m-3">
+                    <div class="mx-1 fs-6 fw-bold text-success">DASHBOARD</div>
+                    <div class="mx-1 my-2" style="height: 0.9px; background-color: gray;"></div>
+                    <ul class="list-unstyled mx-2">
+
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Manage Services
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Create Service
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Manage Blog
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Create Service
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Manage Software
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Upload Service
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Second Panel -->
+
+                <div class="card shadow-sm px-3 py-2 m-3">
+                    <div class="mx-2 fs-6 fw-bold text-success">SELLER</div>
+                    <div class="mx-2 my-2" style="height: 0.9px; background-color: gray;"></div>
+                    <ul class="list-unstyled mx-2">
+
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Service Booking
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Software Sales
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#">Job List
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Transiction List
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Withdraw Money
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#"> Withdraw History
+                            </a>
+                        </li>
+                        <li class="mx-3 fs-6 my-1">
+                            <a class="text-decoration-none text-dark" href="#">Support Ticket
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Bar Right Option  -->
+
+            <div class="col-sm-8">
                 <div class="row  my-1">
-                    <div class="my-4 text-success display-6 fw-bold text-center ">Welcome,User12</div>
+                    <div class="fs-6 my-1 text-dark fw-bold">Welcome,User12</div>
                     <div class="col-sm-6">
                         <div class="card mx-2 my-1 shadow-sm text-center py-4 text-center">
 
@@ -187,10 +213,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- CODE here -->
+        </div>
+
+    </div>
 
     <!-- Footer Start  -->
     <div class="container-fluid dark-bg text-white ">

@@ -1,0 +1,19 @@
+.on-hover-dropdown-item:hover {
+    background-color: #022248 !important;
+    color: #FFFF;
+}
+
+.portfolio-bg {
+    background: url('/assets/images/defualt-portfolio.png') no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.edit-icon {
+    background-color: #022248 !important;
+}
+
+.fs-7 {
+    font-size: 12px;
+}
